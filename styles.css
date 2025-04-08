@@ -66,7 +66,28 @@
     border-radius: 50%;
     margin-top: 20px;
   }
-  
+  #Education h2{
+    text-align: center;
+    margin: 20px;
+
+  }
+  #table{
+    border-collapse: collapse;
+  width: 100%;
+  }
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+
+  #table tr:hover {background-color: #ddd;}
+
+  #table th, #table td{
+    border: 1px solid black;
+    padding: 10px;
+    
+  }
+  #table th{
+    background-color: #666;
+    color: white;
+  }
   #projects {
     background-color: #ccc6c6;
     padding: 50px 0;
