@@ -1,21 +1,145 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  header .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  header .btn:hover {
+    background-color: #cc5200;
+  }
+  
+  #about {
+    background-color: #fff;
+    padding: 50px 0;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 50vh;            
+    text-align: center;    
+  }
+  #about h2{
+    margin-bottom: 20px;
+  }
+  
+  #about .container {
+    max-width: 800px;         
+          
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  #projects {
+    background-color: #ccc6c6;
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .projects {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+  }
+  
+  .project p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
 
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #4CAF50;
-  color: white;
-}
-
-footer {
-  text-align: center;
-  margin-top: 20px;
-}
-
-a {
-  color: #4CAF50;
-}
+  #skills{
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  #skills h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills-Container{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .skills-Container h3{
+    font-size: 1.5rem;
+  }
+  .skills-Container i {
+    color: rgb(90, 80, 24); 
+    font-size: 0.75rem;
+  }
+  .skills-Container p{
+    font-size: 0.85rem;
+    padding: 5px;
+  }
+  .Certified-container{
+    text-align: center;
+  }
+  
